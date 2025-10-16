@@ -12,6 +12,7 @@
 SWOOPS is an in-progress Graphical User Interface (GUI) designed for parametric optimization. Each letter of SWOOPS stands for a feature set that is within the scope of the tool. [Swoops](https://www.mariowiki.com/Swoop) are also the name for the bats in super mario, hence the mascot for the tool is a swoop named Zippy, which is an homage to the Microsoft Office Assistance [Clippy](https://en.wikipedia.org/wiki/Office_Assistant).
 
 <h2 id="table-of-contents">Table of Contents</h2>
+
 1. [Why Create Swoops?](#why-create-swoops)
 1. [Core Tenets](#core-tenets)
 1. [Feature Sets](#feature-sets)
