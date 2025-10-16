@@ -11,17 +11,17 @@
 
 SWOOPS is an in-progress Graphical User Interface (GUI) designed for parametric optimization. Each letter of SWOOPS stands for a feature set that is within the scope of the tool. [Swoops](https://www.mariowiki.com/Swoop) are also the name for the bats in super mario, hence the mascot for the tool is a swoop named Zippy, which is an homage to the Microsoft Office Assistance [Clippy](https://en.wikipedia.org/wiki/Office_Assistant).
 
-## Table of Contents
-1. [Why Create Swoops?](#Why-Create-Swoops?)
+<h2 id="table-of-contents">Table of Contents</h2>
+1. [Why Create Swoops?](#why-create-swoops)
 1. [Core Tenets](#core-tenets)
 1. [Feature Sets](#feature-sets)
 1. [Architectural Choices](#architectural-choices)
 1. [Target Uses](#target-uses)
 1. [Install](#install)
-1. [Usage (Incomplete)](#usage-(incomplete))
+1. [Usage (Incomplete)](#usage-incomplete)
 1. [Roadmap](#roadmap)
 
-## Why Create Swoops?
+<h2 id="why-create-swoops">Why Create Swoops?</h2>
 
 SWOOPS is a culmination of everything I want in an optimization GUI. Below are my grievances with the state of current optimization interfaces:
 
@@ -35,7 +35,7 @@ Therefore, I have developed SWOOPS with the "Core Tenets" below in mind.
 
 [Table of Contents](#table-of-contents)
 
-## Core Tenets
+<h2 id="core-tenets">Core Tenets</h2>
 
 1. Democratize Optimization
 1. Prioritize User Experience
@@ -47,7 +47,7 @@ Therefore, I have developed SWOOPS with the "Core Tenets" below in mind.
 
 [Table of Contents](#table-of-contents)
 
-## Feature Sets
+<h2 id="feature-sets">Feature Sets</h2>
 
 1. Setup - prepare files or processes for optimization, which includes file parsers and workflow templates
 1. Workflows - specify tasks, inputs, outputs, and dependencies of a workflow
@@ -58,7 +58,7 @@ Therefore, I have developed SWOOPS with the "Core Tenets" below in mind.
 
 [Table of Contents](#table-of-contents)
 
-## Architectural Choices
+<h2 id="architectural-choices">Architectural Choices</h2>
 
 - Written in Python due to the breadth of experience for develops in this field, and because it is the language of choice for existing frameworks
 - Primarily target desktop platform for architectural simplicity
@@ -66,7 +66,7 @@ Therefore, I have developed SWOOPS with the "Core Tenets" below in mind.
 
 [Table of Contents](#table-of-contents)
 
-## Target Uses
+<h2 id="target-uses">Target Uses</h2>
 
 - Generic workflow automation
 - DOE (Design of Experiments) and analyzing interaction effects
@@ -76,7 +76,7 @@ Therefore, I have developed SWOOPS with the "Core Tenets" below in mind.
 
 [Table of Contents](#table-of-contents)
 
-## Install
+<h2 id="install">Install</h2>
 
 ```
 pip install swoops
@@ -84,7 +84,7 @@ pip install swoops
 
 [Table of Contents](#table-of-contents)
 
-## Usage (Incomplete)
+<h2 id="usage-incomplete">Usage (Incomplete)</h2>
 
 python test_app.py
 
@@ -92,7 +92,7 @@ python test_app.py
 
 ![Light Mode](https://raw.githubusercontent.com/jkrist2696/swoops/refs/heads/master/images/gui_example_light.png)
 
-![Video Test](https://raw.githubusercontent.com/jkrist2696/swoops/refs/heads/master/images/gui_video_v0.mkv)
+![Video Test](https://raw.githubusercontent.com/jkrist2696/swoops/refs/heads/master/images/gui_video_v0.gif)
 
 Add more GUI usage steps and images here.
 
@@ -106,7 +106,7 @@ swoops [-h] [-file FILE] [-b]
 
 [Table of Contents](#table-of-contents)
 
-## Roadmap
+<h2 id="roadmap">Roadmap</h2>
 
 #### Complete
 
