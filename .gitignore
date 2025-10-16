@@ -16,6 +16,7 @@ src/*/__pycache/
 old/
 src/
 test/
+src_save/
 package_swoops_log.txt
 package_swoops.py
 pyproject.toml

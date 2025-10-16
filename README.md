@@ -11,6 +11,18 @@
 
 SWOOPS is an in-progress Graphical User Interface (GUI) designed for parametric optimization. Each letter of SWOOPS stands for a feature set that is within the scope of the tool. [Swoops](https://www.mariowiki.com/Swoop) are also the name for the bats in super mario, hence the mascot for the tool is a swoop named Zippy, which is an homage to the Microsoft Office Assistance [Clippy](https://en.wikipedia.org/wiki/Office_Assistant).
 
+## Table of Contents
+1. [Why Create Swoops?](#Why-Create-Swoops?)
+1. [Core Tenets](#core-tenets)
+1. [Feature Sets](#feature-sets)
+1. [Architectural Choices](#architectural-choices)
+1. [Target Uses](#target-uses)
+1. [Install](#install)
+1. [Usage (Incomplete)](#usage-(incomplete))
+1. [Roadmap](#roadmap)
+
+## Why Create Swoops?
+
 SWOOPS is a culmination of everything I want in an optimization GUI. Below are my grievances with the state of current optimization interfaces:
 
 - COTS (Commercial Off The Shelf) tools are expensive, lack necessary configurability, and prioritize supporting tools within their own ecosystem
@@ -20,6 +32,8 @@ SWOOPS is a culmination of everything I want in an optimization GUI. Below are m
 - Unfriendly user experience across the board
 
 Therefore, I have developed SWOOPS with the "Core Tenets" below in mind.
+
+[Table of Contents](#table-of-contents)
 
 ## Core Tenets
 
@@ -31,6 +45,8 @@ Therefore, I have developed SWOOPS with the "Core Tenets" below in mind.
 1. Encourage Community Collaboration
 1. Make Lasting Contributions
 
+[Table of Contents](#table-of-contents)
+
 ## Feature Sets
 
 1. Setup - prepare files or processes for optimization, which includes file parsers and workflow templates
@@ -40,11 +56,15 @@ Therefore, I have developed SWOOPS with the "Core Tenets" below in mind.
 1. Plot - create user-defined plots from existing data sets or optimization results
 1. Surrogates - create and test surrogate models for utilizing in multi-fidelity optimization
 
+[Table of Contents](#table-of-contents)
+
 ## Architectural Choices
 
 - Written in Python due to the breadth of experience for develops in this field, and because it is the language of choice for existing frameworks
 - Primarily target desktop platform for architectural simplicity
 - [QT](https://www.qt.io/) ([Pyside6](https://doc.qt.io/qtforpython-6/)) chosen for being the most robust, feature rich, and cross-platform Desktop GUI Framework in Python
+
+[Table of Contents](#table-of-contents)
 
 ## Target Uses
 
@@ -54,11 +74,15 @@ Therefore, I have developed SWOOPS with the "Core Tenets" below in mind.
 - Gradient free, multi-fidelity optimization for design tuning
 - Multi-objective optimization for pareto optimal solutions
 
+[Table of Contents](#table-of-contents)
+
 ## Install
 
 ```
 pip install swoops
 ```
+
+[Table of Contents](#table-of-contents)
 
 ## Usage (Incomplete)
 
@@ -67,6 +91,8 @@ python test_app.py
 ![Dark Mode](https://raw.githubusercontent.com/jkrist2696/swoops/refs/heads/master/images/gui_example.png)
 
 ![Light Mode](https://raw.githubusercontent.com/jkrist2696/swoops/refs/heads/master/images/gui_example_light.png)
+
+![Video Test](https://raw.githubusercontent.com/jkrist2696/swoops/refs/heads/master/images/gui_video_v0.mkv)
 
 Add more GUI usage steps and images here.
 
@@ -77,6 +103,8 @@ Probably don't need this section.
 ### Command Line Usage (Incomplete)
 
 swoops [-h] [-file FILE] [-b] 
+
+[Table of Contents](#table-of-contents)
 
 ## Roadmap
 
@@ -110,6 +138,8 @@ swoops [-h] [-file FILE] [-b]
 1. Custom optimization orchestrator with modular optimizer interface
 1. "Zippy" button opens a helper overlay for tutorials and trainings
 1. Out-of-the-Box interoperability with [GEMSEO](https://gemseo.readthedocs.io/en/stable/index.html), [OpenMDAO](https://openmdao.org/newdocs/versions/latest/main.html#), and [Pymoo](https://pymoo.org/). Potentially work on supporting [Philote](https://mdo-standards.github.io/Philote-MDO/intro.html), [CSDL](https://lsdolab.github.io/csdl/), and [SUAVE](https://suave.stanford.edu/).
+
+[Table of Contents](#table-of-contents)
 
 ## Read The Docs (Incomplete)
 
